@@ -1,0 +1,15 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/iha app/.kivy/logs/kivy_20-06-13_32.txt
+[INFO   ] Kivy: v1.11.0.dev0, git-8b6af30, 20190320
+[INFO   ] Python: v3.7.2 (default, Mar 20 2019, 15:02:54) 
+[GCC 8.2.0]
+[INFO   ] Factory: 184 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2, img_gif (img_pil, img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/iha app/main.py", line 19, in <module>
+[WARNING] stderr:     if __name__ == '__main__':
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.7/site-packages/kivy/app.py", line 800, in run
+[WARNING] stderr:     root = self.build()
+[WARNING] stderr:   File "/storage/emulated/0/iha app/main.py", line 7, in build
+[WARNING] stderr:     def build(self):
+[WARNING] stderr: NameError: name 'BoxLayout' is not defined
